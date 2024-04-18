@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+}
+header{
+	position: fixed;
+	width: 100%;
+	padding: 15px;
+	background-color: #FFD700;
+	text-align: center;
+}
+header nav ul{
+	list-style: none;
+	text-align: center;
+}
+header nav ul li{
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	font-size: 1.2em;
+	padding: 2px 60px;
+	display: inline-block;
+}
+header nav ul li a:hover{
+	color:red;
+}
+html{
+	scroll-behavior: smooth;
+	
+}
+body{
+	background-image: linear-gradient(#FA8072, #E9967A);
+	background-attachment: fixed;
+}
+img{
+	border-radius: 5px;
+}
+div.bemvindo{
+	position: absolute;
+	top: 60px;
+	left: 40%;
+	padding-bottom: 10px;
+}
+div.intro{
+	padding:20px;
+}
+div.titulo{
+	display: block;
+	border: 1px solid black;
+	border-radius: 25px;
+	background-color: #FFD700;
+	width: 90%;
+	height: 50px;
+	align-content: center;
+	text-align: center;
+}
+div.tabela{
+	padding:10px;
+}
+form{
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: #FFD700;
+	width: 500px;
+	text-align: left;
+}
+input{
+	margin-bottom: 15px;
+	padding: 5px 10px;
+}
+.quebra{
+	display: block;
+}
+.botoes{
+	text-align: center;
+}
+.login{
+	margin-left: 80%;
+	border: 1px transparent;
+	width: 20%;
+	border-radius: 5px;
+	align-self: right;
+	background-color: #FFD700;
+	padding-left: 10px;
+	padding-top: 60px;
+}
+div a{
+	padding-left: 16px;
+	font-size: 20px;
+}
+.titulo.membros{
+	color: red;
+	text-align: center;
+}
+#membros{
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}

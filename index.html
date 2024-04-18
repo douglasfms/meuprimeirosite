@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AdventureLand</title> <!-- Tag do nome da página -->
+		<link type="text/css" rel="stylesheet" href="estilos.css"> <!-- Tag que busca o códico CSS -->
+		<link rel="shortcut icon" href="imagens/icon/roda.png" type="image/x-icon">
+	</head>
+	<body>
+		<header> <!-- Cabeçalho (menu superior) -->
+			<nav> <!-- Tag que permite a navegação dentro do site -->
+				<ul> <!-- Lista não ordenada do menu superior -->
+					<!-- Itens da lista (menu superior) -->
+					<li><a href="#home">Home</a></li>
+					<li><a href="#fazer">O que fazer</a></li>
+					<li><a href="#ficar">Onde ficar</a></li>
+					<li><a href="#comprar">Compras</a></li>
+					<li><a href="#contato">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+				
+		<div class="login" id="home">
+			<label>Usuário:</label>
+			<input type="text" name="f_user" required minlength="3" maxlength="50" class="quebra">
+			<label>Senha:</label>
+			<input type="text" name="f_senha" required minlength="3" maxlength="50" class="quebra">
+			<input type="submit" value="Entrar">
+			<a href="membros.html">Seja membro!</a>
+		</div>
+		
+		<div class="bemvindo"> <!-- Título principal da página -->
+			<center>
+				<h1>Bem-vindo ao AdventureLand!</h1>
+			</center>
+		</div>
+	
+		<hr> <!-- Barra que separa o título do conteúdo -->
+		
+		<div class="intro"> <!-- Parágrafo de boas vindas -->
+			<p>
+				Bem-vindo à AdventureLand: Onde a diversão nunca acaba! <br>
+				Localizado em um ambiente pitoresco, nosso parque de diversões oferece uma variedade de atrações emocionantes,<br> 
+				desde montanhas-russas eletrizantes até carrosséis clássicos e espetáculos incríveis. <br>
+				Com uma equipe dedicada à segurança e ao entretenimento dos visitantes, garantimos experiências memoráveis para todas as idades. <br>
+				Seja você um entusiasta de aventuras ou alguém em busca de momentos divertidos em família, AdventureLand é o destino perfeito para criar lembranças inesquecíveis. <br>
+				Venha se juntar a nós e embarque em uma jornada cheia de diversão e emoção!
+			</p>
+		</div>
+			
+		<center>
+			<div class="titulo" id="fazer"> <!-- Título da primeira seção "O que fazer" -->
+				<h2>O que fazer</h2>
+			</div>
+		</center>
+		
+		<div class="tabela"> <!-- Tabela com o conteúdo do "O que fazer" -->
+			<center>
+				<table>
+					<tr>
+						<td><h3><center>Atrações</center></h3></td><td><h3><center>Alimentação</center></h3></td>
+					</tr>
+					<tr>
+						<td><center>Montanha-russa</center></td><td><center>Restaurante 5 estrelas</center></td>
+					</tr>
+					<tr>
+						<td><center><img src="Imagens\montanha.jpeg" height="133px" width="220px"></center></td><td><center><img src="Imagens\restaurante.jpg" height="133px" width="220px"><center></td>
+					</tr>
+					<tr>
+						<td><center>Roda-gigante</center></td><td><center>Cafeteria</center></td>
+					</tr>
+					<tr>
+						<td><center><img src="Imagens\roda-gigante.jfif" height="133px" width="220px"></center></td><td><center><img src="Imagens\cafeteria.jpg"></center></td>
+					</tr>
+				</table>
+			</center>
+		</div>
+			
+		<center>
+			<div class="titulo" id="ficar"> <!-- Título da segunda seção "Onde ficar" -->
+				<h2>Onde ficar</h2>
+			</div>
+		</center>
+			
+		<br>	
+			
+		<center>
+			<h3>Hotéis</h3> <!-- Título da tabela -->
+		</center>
+		
+		<div class="tabela"> <!-- Tabela com o conteúdo do "Onde ficar" -->
+			<center>
+				<table>
+					<tr>
+						<td><center>Hotel 5 estrelas</center></td><td><center>Hotel 3 estrelas</center></td>
+					</tr>
+					<tr>
+						<td><img src="Imagens\hotel5.jpg" height="133px" width="220px"></td><td><img src="Imagens\hotel3.jpg" height="133px" width="220px"><td>
+					</tr>
+				</table>
+			</center>
+		</div>
+		
+		<center>
+			<div class="titulo" id="comprar"> <!-- Título da terceira seção "Compras" -->	 	
+				<h2>Compras</h2>
+			</div>
+		</center>
+			
+		<br>
+		
+		<center>
+			<h3>Lojas de presentes</h3> <!-- Título da tabela -->
+		</center>	
+		
+		<div class="tabela"> <!-- Tabela com o conteúdo do "Compras" -->
+			<center>	
+				<table>
+						<tr>
+							<td><center>Pelúcias</center></td>
+						</tr>
+						<tr>
+							<td><img src="Imagens\shop.jpg" height="133px" width="220px"></td>
+						</tr>
+				</table>
+			</center>
+		</div>
+	
+		<center>
+			<div class="titulo" id="contato"> <!-- Título da quarta seção "Contato" -->	 	
+				<h2>Contato</h2>
+			</div>
+		</center>
+		<br>	
+		<center>
+			<h3>Para solicitar informações, fazer reservas, críticas ou elogios</h3>
+			<br>
+		</center>
+		<center>
+			<form name="f_contato" action="#" method="post">
+				<label>Nome completo:</label>
+				<input type="text" name="f_nome" required minlength="3" maxlength="50" placeholder="Digite seu nome" size="64" class="quebra">
+				<label>E-mail:</label>
+				<input type="text" name="f_email" required minlength="3" maxlength="50" placeholder="Digite seu e-mail" size="64" class="quebra">
+				<label>Assunto:</label>				
+				<input type="text" name="f_email" required minlength="3" maxlength="100" placeholder="Informe o assunto" size="64" class="quebra">
+				<label for="mensagem">Mensagem:</label>
+    			<textarea id="mensagem" name="mensagem" rows="10" cols="65"></textarea>
+				<div class="botoes">
+					<input type="submit">
+					<input type="reset" value="Limpar">
+				</div>
+			</form>
+		</center>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seja membro! - AdventureLand</title>
+        <link type="text/css" rel="stylesheet" href="estilos.css">
+        <link rel="shortcut icon" href="imagens/icon/roda.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+                <h1>Seja membro! - AdventureLand</h1>
+                <p>Faça seu cadastro em nosso site se concorra a vários cupons promocionais!</p>                  
+        </header>
+        <br>
+        <form action="#" name="f_membro" id="membros" method="post">
+            <label>Nome completo:</label>
+            <input type="text" name="nome_membro" required minlength="3" maxlength="50" placeholder="Digite seu nome" size="50" class="quebra">
+            <label>E-mail:</label>
+		    <input type="text" name="email_membro" required minlength="3" maxlength="50" placeholder="Digite seu e-mail" size="50" class="quebra">
+            <label>Senha:</label>
+            <input type="password" name="senha_membro" required minlength="3" maxlength="50" placeholder="Informe uma senha" size="50" class="quebra">
+            <label>Repita a senha:</label>
+            <input type="password" name="senha_membro" required minlength="3" maxlength="50" placeholder="Informe a senha novamente" size="50" class="quebra">
+            <label>Data de nascimento:</label>
+            <input type="date" name="data_membro" required class="quebra">
+            <label>Gênero:</label>
+            <input type="radio" name="sexo_membro" value="Masculino">Masculino
+            <input type="radio" name="sexo_membro" value="Feminino">Feminino
+            <br>
+            <input type="submit">
+            <a href="index.html">
+                <input type="button" value="Cancelar">
+            </a>    
+            
+        </form>
+    </body>
+</html>  
