@@ -18,13 +18,13 @@ header nav ul li{
 header nav ul li a{
 	text-decoration: none;
 	text-transform: uppercase;
-	color: black;
+	color: #000;
 	font-size: 1.2em;
 	padding: 2px 60px;
 	display: inline-block;
 }
 header nav ul li a:hover{
-	color:red;
+	color:#f00;
 }
 html{
 	scroll-behavior: smooth;
@@ -48,7 +48,7 @@ div.intro{
 }
 div.titulo{
 	display: block;
-	border: 1px solid black;
+	border: 1px solid #000;
 	border-radius: 25px;
 	background-color: #FFD700;
 	width: 90%;
@@ -60,7 +60,7 @@ div.tabela{
 	padding:10px;
 }
 form{
-	border: 1px solid black;
+	border: 1px solid #000;
 	padding: 10px;
 	border-radius: 15px;
 	background-color: #FFD700;
@@ -92,7 +92,7 @@ div a{
 	font-size: 20px;
 }
 .titulo.membros{
-	color: red;
+	color: #f00;
 	text-align: center;
 }
 #membros{
